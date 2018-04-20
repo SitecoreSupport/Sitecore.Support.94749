@@ -116,7 +116,7 @@ scContentEditor.prototype.addSearchCriteria = function (sender, evt) {
     var input = $("SearchOptionsAddCriteria");
     var name = input.value;
 
-    if (name == "") {
+    if (name === "") {
         return;
     }
 
